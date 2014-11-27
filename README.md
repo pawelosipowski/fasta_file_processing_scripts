@@ -4,6 +4,5 @@
 
 USAGE:
 
-'''
 fasta_random_trimming.py <input1.fastq> <input2.fastq> <output1.fastq> <output2.fastq> <number of seq to delete>
-'''
+
