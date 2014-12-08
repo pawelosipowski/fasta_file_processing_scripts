@@ -1,9 +1,10 @@
-## Script to randomly delete sequences from files in fasta or fastq format.
+My scripts to process files in fasta or fastq format. Were used to genome assembly, comparative genomics.
 
-###From range of sequences from file randomly deletes defined number of sequences and puts it into output file.
-###All the fasta file content is loaded into memory so much depend on a file size. Dealing with whole libraries will be usually not manageable for regular PCs.
+##### fasta_file_random_trimming.py
 
-####For the moment it only takes fasta paired ends as input.
+From range of sequences in a file randomly deletes defined number of sequences and puts it into output file.
+All the fasta file content is loaded into memory so much depend on a file size. Dealing with whole libraries will be usually not manageable for regular PCs.
+
 
 USAGE:
 ```
