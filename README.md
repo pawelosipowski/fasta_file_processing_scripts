@@ -1,4 +1,4 @@
-#####These are some scripts to use freely, to process files in fasta or fastq format. Were used to genome assembly, comparative genomics.
+#####These are some scripts to use freely, to process files in fasta or fastq format. They are used by me in genome assembly and comparative genomics workflows.
 
 ###### fasta_file_random_trimming.py
 From range of fasta records in paired end files randomly deletes defined number of records and puts left records into output file. All the fasta file content is loaded into memory so much depend on a file size. Dealing with whole libraries will be usually not manageable for regular PCs.
